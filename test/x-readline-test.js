@@ -2,7 +2,7 @@
 "use strict";
 
 var assert = require("power-assert");
-var XReadLine = require('../lib/x-readline');
+var XReadLine = require('../');
 var fs = require('fs');
 var rs = fs.createReadStream(__dirname + '/fixtures/test.txt', {encoding: 'utf8'});
 describe("x-readline-test", function () {
